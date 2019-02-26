@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MyTempExtension_Example' do
+  pod 'MyTempExtension', :path => '../'
+
+  target 'MyTempExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
