@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		18D2B4BB46C6940721184E93 /* Pods_MyTempExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTempExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26627BF29B51100B5C2B8C3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		26627BF29B51100B5C2B8C3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3EA66B82E61B2E25BB8C086D /* Pods-MyTempExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTempExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyTempExtension_Tests/Pods-MyTempExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4D23C01AF14E6DDF5F84E2E5 /* MyTempExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyTempExtension.podspec; path = ../MyTempExtension.podspec; sourceTree = "<group>"; };
+		4D23C01AF14E6DDF5F84E2E5 /* MyTempExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyTempExtension.podspec; path = ../MyTempExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5E2116965808E5D8668537B7 /* Pods_MyTempExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTempExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* MyTempExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTempExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* MyTempExtension_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTempExtension_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9A9C8B70944AE334CE0AC1BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9A9C8B70944AE334CE0AC1BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B87257FEF4BDE23345D68309 /* Pods-MyTempExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTempExtension_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyTempExtension_Example/Pods-MyTempExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C862DC03180DCAB0AD4DAEE1 /* Pods-MyTempExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTempExtension_Example.release.xcconfig"; path = "Target Support Files/Pods-MyTempExtension_Example/Pods-MyTempExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C954E5888F7F76E47BC9E558 /* Pods-MyTempExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTempExtension_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyTempExtension_Tests/Pods-MyTempExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				3EA66B82E61B2E25BB8C086D /* Pods-MyTempExtension_Tests.debug.xcconfig */,
 				C954E5888F7F76E47BC9E558 /* Pods-MyTempExtension_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

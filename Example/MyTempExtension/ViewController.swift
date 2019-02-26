@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import MyTempExtension
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let str = "simple test"
+        let count = str.wordCount
+        print("count: \(count)")
     }
 
     override func didReceiveMemoryWarning() {

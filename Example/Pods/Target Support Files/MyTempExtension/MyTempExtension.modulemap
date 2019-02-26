@@ -1,0 +1,6 @@
+framework module MyTempExtension {
+  umbrella header "MyTempExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

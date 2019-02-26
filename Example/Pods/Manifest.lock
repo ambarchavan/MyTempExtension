@@ -1,0 +1,16 @@
+PODS:
+  - MyTempExtension (0.1.0)
+
+DEPENDENCIES:
+  - MyTempExtension (from `../`)
+
+EXTERNAL SOURCES:
+  MyTempExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyTempExtension: 9eadcd7509dd0511af676bede957ea4b6b157be0
+
+PODFILE CHECKSUM: 070242db6d3c3e441bce92d7d12fbb21561aad67
+
+COCOAPODS: 1.7.0.beta.1

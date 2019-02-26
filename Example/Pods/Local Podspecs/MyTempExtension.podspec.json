@@ -1,0 +1,22 @@
+{
+  "name": "MyTempExtension",
+  "version": "0.1.0",
+  "summary": "A short description of MyTempExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chavanambar@gmail.com/MyTempExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chavanambar@gmail.com": "chavan.amber@siliconstack.com.au"
+  },
+  "source": {
+    "git": "https://github.com/chavanambar@gmail.com/MyTempExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyTempExtension/Classes/**/*"
+}
